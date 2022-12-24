@@ -46,14 +46,16 @@ song and the song writers -> {
 }
 
 
-song writers -> {
+.songwriters {
     color: #666666;
     font-size: smaller;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 2px;
 }
 
-song writers while mouseover{
+.songwriters:hover{
     color: #2e2e2e;
+    cursor: pointer;
 }
 
 .play,
