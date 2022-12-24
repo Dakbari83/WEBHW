@@ -13,11 +13,27 @@ html{
 .bigpart {
     height: 400px;
     width: 270px;
-    background-image: linear-gradient(rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674));, 
+    background-image: linear-gradient(rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674));
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px #2e2e2e;
+    text-align: center;
+    text-shadow: 1px 1px 1px #2e2e2e;
+    color: azure;
+    
+    
 }
-
-while mouseover -> {
-   rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792)
+img {
+    
+    border-radius: 4px;
+    margin-top: 10px;
+    
+  }
+  
+  
+.bigpart:hover {
+    background-image: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));
 }
 
 
