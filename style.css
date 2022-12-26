@@ -11,7 +11,7 @@ html{
 
 
 .bigpart {
-    height: 400px;
+    height: 450px;
     width: 270px;
     background-image: linear-gradient(rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674));
     margin: auto;
@@ -30,6 +30,7 @@ img {
     margin-top: 10px;
     
   }
+  img:hover{box-shadow: 2px 2px rgba(55, 58, 62, 0.694);}
   
   
 .bigpart:hover {
@@ -54,10 +55,17 @@ song and the song writers -> {
 }
 
 .songwriters:hover{
+    transition: 1s;
     color: #2e2e2e;
     cursor: pointer;
 }
-
+.time{color: azure;
+text-shadow: none;}
+.slider{width: 100%;
+    
+}
+.bar{width: 90%;
+}
 .play,
 .back,
 .for{
@@ -67,9 +75,9 @@ song and the song writers -> {
     border-radius: 50%;
 }
 
-
-.back
-.for
-.play while mouseover -> {
-    border-color: #bebebe;
-}
+.back:hover{border-color: #bebebe;
+cursor: pointer;}
+.for:hover{border-color: #bebebe;
+cursor: pointer;}
+.play:hover{border-color: #bebebe;
+cursor: pointer;}
